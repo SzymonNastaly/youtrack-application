@@ -1,10 +1,10 @@
 {
   "entityTypeExtensions": [
     {
-      "entityType": "Project",
+      "entityType": "AppGlobalStorage",
       "properties": {
-        "isActive": {
-          "type": "boolean"
+        "projectActiveObject": {
+          "type": "string"
         }
       }
     }

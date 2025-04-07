@@ -1,0 +1,22 @@
+{
+  "name": "application-szymon-nastaly",
+  "title": "Demo Admin Panel",
+  "description": "Admin panel for managing available projects",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "Szymon Nastaly",
+    "url": "https://szymonnastaly.youtrack.cloud"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "admin-panel",
+      "name": "Admin-Panel",
+      "indexPath": "admin-panel/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "iconPath": "admin-panel/widget-icon.svg",
+      "description": "Manage available projects"
+    }
+  ]
+}

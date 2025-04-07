@@ -1,0 +1,12 @@
+{
+  "entityTypeExtensions": [
+    {
+      "entityType": "Project",
+      "properties": {
+        "isActive": {
+          "type": "boolean"
+        }
+      }
+    }
+  ]
+}
